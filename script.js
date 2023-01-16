@@ -13,6 +13,7 @@ function threeSum(arr, target) {
 			let diff = (sum >= target)	? (sum - target) : (target - sum)
 			if(diff == 0) {
 			    found_target = true
+				ans = target
 			    break;
 			}
 			else if(diff < min_diff) {
